@@ -1,0 +1,76 @@
+
+body{
+  background-color: rgb(255, 255, 255) !important;
+}
+
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+.heading{
+    margin-bottom: -6%;
+}
+.tagline{
+    padding-top: 5%;
+}
+
+.navbar-brand{
+     position: absolute;
+}
+.navbar .navbar-nav {
+    margin-bottom: 2%;
+    display: flex;
+    float: none;
+    padding-left: 45%;
+    text-align: center;
+  }
+  .hero{
+    display: flex;
+ 
+
+  }
+  .logo2{
+    display: block;
+    border: 3px solid blueviolet;
+   /* width:max-content */
+    background-image: url(https://tb-static.uber.com/prod/image-proc/processed_images/abb285256d8399b85a82cc675b460bc0/8a42ee7a692dfa4155879820804a277f.jpeg);
+    padding-bottom: 1%;
+    
+  }
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 20%; */
+    padding-top: 1%;
+
+    
+  }
+  .headline{
+    /* border: solid blue; */
+    flex-wrap: wrap;
+    padding-left: 10%;
+    /* padding-top: 2%; */
+  }
+  .parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ 
+ .card-body{
+     border: 1px solid black;
+     width: 230px;
+  }
+  
+  .img-container img {
+     max-width: 80%;
+     height: 10vw;
+  }
+  
+  .card-body p, .card-body h1 {
+     margin: 8px;
+  }
+  
